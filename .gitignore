@@ -1,0 +1,25 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+backend/.env
+
+# JavaScript
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# Local editor files, logs and generated artifacts
+.vscode/
+.idea/
+*.log
+.DS_Store
+artifacts/*.joblib
+artifacts/*.pkl
+
+tmdb-api-test.err
+tmdb-api-test.out
